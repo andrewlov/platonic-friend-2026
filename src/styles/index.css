@@ -1,0 +1,26 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+/* Larger carousel arrows */
+.slick-prev,
+.slick-next {
+  width: 60px !important;
+  height: 60px !important;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 60px !important;
+}
+
+.slick-prev {
+  left: -70px !important;
+}
+
+.slick-next {
+  right: -70px !important;
+}
