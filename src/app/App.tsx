@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 
 let gifs = [
   'gifs/doraemon-cover.gif',
+  'gifs/doraemon-no-1.gif',
   'gifs/doraemon-no-2.gif',
   'gifs/kuromi-sad-1.gif',
   'gifs/kuromi-sad-2.gif',
@@ -83,7 +84,7 @@ export default function App() {
     };
 
     return (
-      <div className="size-full flex flex-col items-center justify-center p-8" style={{ fontFamily: 'var(--font-family-times)', backgroundColor: '#e3d1c7' }}>
+      <div className="size-full min-h-screen flex flex-col items-center justify-center p-8" style={{ fontFamily: 'var(--font-family-times)', backgroundColor: '#e3d1c7' }}>
         <div className="text-center max-w-3xl w-full">
           <h1 className="text-6xl mb-6"></h1>
           <h2 className="text-4xl mb-4 animate-bounce-high">THANK YOU THANK YOU THANK YOU</h2>
@@ -95,7 +96,7 @@ export default function App() {
                   <img 
                     src={img} 
                     alt={`Celebration ${index + 1}`}
-                    className="w-full h-96 object-cover rounded-2xl shadow-2xl mx-auto"
+                    className="w-full h-[400px] object-contain rounded-2xl bg-white/20 mx-auto"
                   />
                 </div>
               ))}
