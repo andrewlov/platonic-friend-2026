@@ -9,7 +9,8 @@ export default defineConfig({
     // Tailwind is not being actively used – do not remove them
     react(),
     tailwindcss(),
-  ],
+  ]
+  base:'/platonic-friend-2026',
   resolve: {
     alias: {
       // Alias @ to the src directory
