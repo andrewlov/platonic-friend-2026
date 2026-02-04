@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/platonic-friend-2026',
+  base: '/src/main.tsx',
   resolve: {
     alias: {
       // Alias @ to the src directory

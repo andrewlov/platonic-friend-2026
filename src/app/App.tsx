@@ -2,13 +2,13 @@ import { useState } from 'react';
 import Slider from 'react-slick';
 
 let gifs = [
-  'gifs/doraemon-cover.gif',
-  'gifs/doraemon-no-1.gif',
-  'gifs/doraemon-no-2.gif',
-  'gifs/kuromi-sad-1.gif',
-  'gifs/kuromi-sad-2.gif',
-  'gifs/kuromi-sad-3.gif',
-  'gifs/kuromi-sad-4.gif',
+  '/gifs/doraemon-cover.gif',
+  '/gifs/doraemon-no-1.gif',
+  '/gifs/doraemon-no-2.gif',
+  '/gifs/kuromi-sad-1.gif',
+  '/gifs/kuromi-sad-2.gif',
+  '/gifs/kuromi-sad-3.gif',
+  '/gifs/kuromi-sad-4.gif',
 ];
 
 const messages = [
@@ -36,13 +36,13 @@ const messages = [
 ];
 
 const celebrationImages = [
-  'gifs/kuromi-yes-1.gif',
-  'gifs/kuromi-yes-2.gif',
-  'gifs/kuromi-yes-3.gif',
-  'gifs/kuromi-yes-4.gif',
-  'gifs/doraemon-yes-2.gif',
-  'gifs/doraemon-yes-3.gif',
-  'gifs/doraemon-yes-4.gif',
+  '/gifs/kuromi-yes-1.gif',
+  '/gifs/kuromi-yes-2.gif',
+  '/gifs/kuromi-yes-3.gif',
+  '/gifs/kuromi-yes-4.gif',
+  '/gifs/doraemon-yes-2.gif',
+  '/gifs/doraemon-yes-3.gif',
+  '/gifs/doraemon-yes-4.gif',
 ];
 
 export default function App() {
